@@ -48,7 +48,7 @@ $promptBody = @{
 } | ConvertTo-Json
 
 try {
-    $response = Invoke-RestMethod -Uri "http://127.0.0.1:11434/api/generate" -Method Post -Body $promptBody -ContentType "application/json" -TimeoutSec 60
+    $response = Invoke-RestMethod -Uri "http://127.0.0.1:11434/api/generate" -Method Post -Body $promptBody -ContentType "application/json" -TimeoutSec 300
     $timestamp = Get-Date -Format "yyyy-MM-dd_HH-mm"
     $outputFile = "daily_initiatives_$timestamp.md"
     Set-Content -Path $outputFile -Value $response.response
