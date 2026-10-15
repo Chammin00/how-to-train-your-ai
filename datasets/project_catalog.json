@@ -1,0 +1,910 @@
+{
+  "MY Security": {
+    "category": "security_and_systems",
+    "total_files": 12,
+    "file_types": {
+      ".json": 3,
+      ".csproj": 1,
+      ".cs": 1,
+      ".ps1": 1,
+      ".props": 1,
+      ".html": 1,
+      ".css": 1,
+      ".js": 2,
+      ".jpg": 1
+    },
+    "sample_files": [
+      "appsettings.Development.json",
+      "appsettings.json",
+      "MY Security.csproj",
+      "Program.cs",
+      "Get-SecurityStatus.ps1",
+      "Directory.Build.props",
+      "Properties\\launchSettings.json",
+      "wwwroot\\index.html",
+      "wwwroot\\styles.css",
+      "wwwroot\\app.js"
+    ],
+    "description": "Custom active development workspace"
+  },
+  "Choogle": {
+    "category": "automation_and_tech",
+    "total_files": 48,
+    "file_types": {
+      ".js": 15,
+      ".html": 13,
+      ".css": 13,
+      ".md": 1,
+      "": 1,
+      ".ps1": 2,
+      ".txt": 1,
+      ".jpg": 1,
+      ".json": 1
+    },
+    "sample_files": [
+      "search-data.js",
+      "index.html",
+      "styles.css",
+      "app.js",
+      "outages.html",
+      "outages.css",
+      "outages.js",
+      "hacked.html",
+      "hacked.css",
+      "hacked.js"
+    ],
+    "description": "# Choogle\nantigravity proects\n"
+  },
+  "Images": {
+    "category": "other",
+    "total_files": 3,
+    "file_types": {
+      ".heic": 2,
+      ".jpg": 1
+    },
+    "sample_files": [
+      "Copy of 20260810_133745.heic",
+      "Copy of 20260810_133745 - Copy.heic",
+      "Copy of 20260810_133745 - Copy.jpg"
+    ],
+    "description": "Custom active development workspace"
+  },
+  "desktopscreensaver": {
+    "category": "other",
+    "total_files": 14,
+    "file_types": {
+      ".jpg": 4,
+      ".html": 9,
+      ".js": 1
+    },
+    "sample_files": [
+      "cosmic_cityscape.jpg",
+      "Cosmic_Cityscape.html",
+      "Cosmic_Cityscape_Rain.html",
+      "Cosmic_Cityscape_Spring.html",
+      "Cosmic_Cityscape_Winter.html",
+      "Cosmic_Cityscape_Summer.html",
+      "Cosmic_Cityscape_Autumn.html",
+      "cosmic-background.js",
+      "cyberpunk_metropolis.jpg",
+      "bioluminescent_abyss.jpg"
+    ],
+    "description": "Custom active development workspace"
+  },
+  "chess": {
+    "category": "game_dev",
+    "total_files": 8,
+    "file_types": {
+      ".css": 1,
+      ".html": 1,
+      ".jpg": 1,
+      ".js": 5
+    },
+    "sample_files": [
+      "style.css",
+      "index.html",
+      "cosmic_cityscape.jpg",
+      "cosmic-background.js",
+      "js\\pieces.js",
+      "js\\app.js",
+      "js\\openings.js",
+      "js\\capture-animations.js"
+    ],
+    "description": "Custom active development workspace"
+  },
+  "1st grade learning": {
+    "category": "ai_and_learning",
+    "total_files": 4,
+    "file_types": {
+      ".html": 2,
+      ".jpg": 1,
+      ".js": 1
+    },
+    "sample_files": [
+      "index.html",
+      "typing.html",
+      "cosmic_cityscape.jpg",
+      "cosmic-background.js"
+    ],
+    "description": "Custom active development workspace"
+  },
+  "RHCSA Exam200": {
+    "category": "security_and_systems",
+    "total_files": 13,
+    "file_types": {
+      ".md": 9,
+      ".html": 1,
+      ".jpg": 1,
+      ".js": 2
+    },
+    "sample_files": [
+      "RHCSA_EX200_Study_Guide.md",
+      "RHCSA_Lab_Setup.md",
+      "RHCSA_Mock_Exam.md",
+      "RHCSA_Mock_Exam_Answer_Key.md",
+      "RHCSA_Practice_Scenarios.md",
+      "RHCSA_Terminal_Practice.html",
+      "README.md",
+      "cosmic_cityscape.jpg",
+      "cosmic-background.js",
+      "RHCSA_V10_Complete_Mock_Exam.md"
+    ],
+    "description": "# RHCSA EX200 Study Kit \u2014 RHEL 9 & RHEL 10\n\nAn interactive browser-based practice tool for the **Red Hat Certified System Administrator (RHCSA) EX200** exam.\n\n## Live Tool\n\n**[Open the Practice Terminal](https://Chammin00.github.io/rhcsa-ex200/RHCSA_Terminal_Practice.html)**\n\nNo install needed \u2014 run"
+  },
+  "vulnerability management": {
+    "category": "security_and_systems",
+    "total_files": 427,
+    "file_types": {
+      ".json": 33,
+      ".csproj": 1,
+      ".cs": 57,
+      ".db": 1,
+      ".md": 2,
+      ".cshtml": 32,
+      ".css": 24,
+      ".ico": 1,
+      ".jpg": 1,
+      ".js": 18,
+      "": 1,
+      ".map": 24,
+      ".txt": 4,
+      ".props": 1,
+      ".targets": 1,
+      ".cache": 19,
+      ".editorconfig": 2,
+      ".dll": 32,
+      ".pdb": 4,
+      ".up2date": 2,
+      ".gz": 129,
+      ".so": 28,
+      ".a": 2,
+      ".dylib": 8
+    },
+    "sample_files": [
+      "appsettings.Development.json",
+      "appsettings.json",
+      "vulnerability management.csproj",
+      "Program.cs",
+      "vulnguard.db",
+      "README.md",
+      "Views\\_ViewImports.cshtml",
+      "Views\\_ViewStart.cshtml",
+      "Views\\Home\\Index.cshtml",
+      "Views\\Home\\Privacy.cshtml"
+    ],
+    "description": "# \ud83d\udee1\ufe0f VulnGuard Enterprise - Vulnerability Management Platform\n\nVulnGuard is an enterprise-grade Vulnerability Management and Attack Surface Monitoring web application built on **ASP.NET Core (.NET 10)**, **Entity Framework Core**, and **SQLite**. It offers end-to-end vulnerability lifecycle tracking"
+  },
+  "bot finder": {
+    "category": "security_and_systems",
+    "total_files": 31,
+    "file_types": {
+      ".toml": 1,
+      ".lock": 1,
+      ".md": 2,
+      ".txt": 1,
+      ".py": 10,
+      ".json": 1,
+      ".css": 2,
+      ".js": 6,
+      ".html": 2,
+      ".jpg": 2,
+      ".png": 3
+    },
+    "sample_files": [
+      "pyproject.toml",
+      "uv.lock",
+      "README.md",
+      "server\\requirements.txt",
+      "server\\main.py",
+      "server\\__init__.py",
+      "server\\analyzers\\__init__.py",
+      "server\\analyzers\\ragebait_detector.py",
+      "server\\analyzers\\bot_detector.py",
+      "server\\scrapers\\__init__.py"
+    ],
+    "description": "# BotFinder & RageShield \ud83d\udee1\ufe0f\ud83e\udd16\n\nAn intelligent, real-time social media bot network and ragebait detection system that scans screens and scrolling feeds in milliseconds.\n\n---\n\n## \ud83d\ude80 Quick Start\n\n### 1. Launch the Fast Analysis Backend & Dashboard\n```bash\nuv run uvicorn server.main:app --reload --port 80"
+  },
+  "comptia exam simulator": {
+    "category": "security_and_systems",
+    "total_files": 29,
+    "file_types": {
+      ".html": 1,
+      ".md": 1,
+      ".pdf": 6,
+      ".jpg": 1,
+      ".js": 16,
+      ".txt": 1,
+      ".zip": 2,
+      ".css": 1
+    },
+    "sample_files": [
+      "index.html",
+      "README.md",
+      "Security_Plus_Cheatsheet_Zero_To_Mastery_V1.01.pdf",
+      "Mock Exam 1.pdf",
+      "Mock Exam 2.pdf",
+      "Mock Exam 3.pdf",
+      "Mock Exam 4.pdf",
+      "SecurityPlus_Practice_Exam_05 (1).pdf",
+      "cosmic_cityscape.jpg",
+      "cosmic-background.js"
+    ],
+    "description": "# CompTIA Security+ (SY0-701) Exam Simulator & Mastery Hub \ud83d\udee1\ufe0f\n\nA comprehensive, realistic, and modern web-based exam simulator for **CompTIA Security+ SY0-701**. Zero installation or complex build tools required \u2014 works straight out of the box in Google Chrome, Microsoft Edge, Mozilla Firefox, or an"
+  },
+  "using ai agents for profit": {
+    "category": "income_and_views",
+    "total_files": 25,
+    "file_types": {
+      ".txt": 1,
+      ".py": 7,
+      ".md": 2,
+      ".db": 1,
+      ".html": 1,
+      ".jpg": 1,
+      ".js": 1,
+      ".pdf": 3,
+      ".csv": 8
+    },
+    "sample_files": [
+      "requirements.txt",
+      "database.py",
+      "schemas.py",
+      "parser_engine.py",
+      "reconciliation_engine.py",
+      "generate_demo_data.py",
+      "main.py",
+      "CLIENT_PITCH_PLAYBOOK.md",
+      "README.md",
+      "pipeline_records.db"
+    ],
+    "description": "# Antigravity Operations Engine: Ingestion & Reconciliation Pipeline\n\nA production-grade, deterministic operations pipeline for B2B back-office document processing, discrepancy detection, and accounting data reconciliation.\n\n---\n\n## \u26a1 Quick Start\n\n### 1. Install Dependencies\n```bash\npip install -r r"
+  },
+  "onestop": {
+    "category": "other",
+    "total_files": 5,
+    "file_types": {
+      ".html": 1,
+      ".ps1": 1,
+      ".jpg": 1,
+      ".js": 1,
+      ".mp4": 1
+    },
+    "sample_files": [
+      "index.html",
+      "server.ps1",
+      "cosmic_cityscape.jpg",
+      "cosmic-background.js",
+      "captures\\beast_of_reincarnation.mp4"
+    ],
+    "description": "Custom active development workspace"
+  },
+  "screen reader": {
+    "category": "automation_and_tech",
+    "total_files": 13,
+    "file_types": {
+      ".toml": 1,
+      ".py": 7,
+      ".bat": 1,
+      ".ps1": 1,
+      ".md": 1,
+      ".lock": 1,
+      ".json": 1
+    },
+    "sample_files": [
+      "pyproject.toml",
+      "ocr_engine.py",
+      "tts_engine.py",
+      "page_turner.py",
+      "note_generator.py",
+      "ui.py",
+      "main.py",
+      "run.bat",
+      "run.ps1",
+      "README.md"
+    ],
+    "description": "# \ud83c\udfa7 Kindle Voice Narrator & AI Study Companion\n\nAn assistive screen reader and voice narrator designed specifically for **Kindle for PC**, **Kindle Cloud Reader** (`read.amazon.com`), and any on-screen ebook reader.\n\n---\n\n## \u2728 Features\n\n- \ud83e\udd1d **1-Click Window Link & Permissions Handshake**:\n  - **`\ud83d\udc46 C"
+  },
+  "synergize and pay": {
+    "category": "other",
+    "total_files": 5,
+    "file_types": {
+      ".md": 2,
+      ".html": 1,
+      ".jpg": 1,
+      ".js": 1
+    },
+    "sample_files": [
+      "PORTFOLIO_MANIFEST.md",
+      "MONETIZATION_BLUEPRINT.md",
+      "index.html",
+      "cosmic_cityscape.jpg",
+      "cosmic-background.js"
+    ],
+    "description": "Custom active development workspace"
+  },
+  "zfold6 features": {
+    "category": "other",
+    "total_files": 1,
+    "file_types": {
+      ".md": 1
+    },
+    "sample_files": [
+      "galaxy_z_fold_6_tips_and_tricks_guide.md"
+    ],
+    "description": "Custom active development workspace"
+  },
+  "note taker": {
+    "category": "other",
+    "total_files": 4,
+    "file_types": {
+      ".md": 3,
+      ".txt": 1
+    },
+    "sample_files": [
+      "README.md",
+      "SecurityPlus_SY0-701_Must_Knows.md",
+      "SecurityPlus_SY0-701_Cheatsheet.txt",
+      "Session_Notes.md"
+    ],
+    "description": "\ufeff# Note Taker & Study Hub\n\nWelcome to your study and note-taking workspace. All notes created here in g:\\My Drive\\Antigravity\\Projects\\note taker automatically sync with your Google Drive and can be opened in **Notepad**, **Notepad++**, or imported directly into **OneNote** / **Google Keep / Docs**."
+  },
+  "deploy": {
+    "category": "income_and_views",
+    "total_files": 25,
+    "file_types": {
+      ".db": 1,
+      ".json": 3,
+      ".md": 1,
+      ".ps1": 4,
+      ".html": 1,
+      ".txt": 1,
+      ".js": 2,
+      ".css": 1,
+      ".jpg": 1,
+      ".zip": 10
+    },
+    "sample_files": [
+      "pipeline_records.db",
+      "PROJECT_CATALOG.json",
+      "PROJECT_STATUS.md",
+      "Deploy-Manager.ps1",
+      "routine_scan.ps1",
+      "Setup-MidnightTask.ps1",
+      "index.html",
+      "scan_log.txt",
+      "scan_state.json",
+      "antigravity-auth.js"
+    ],
+    "description": "Custom active development workspace"
+  },
+  "monopoly": {
+    "category": "game_dev",
+    "total_files": 24,
+    "file_types": {
+      ".html": 1,
+      ".py": 2,
+      ".bat": 1,
+      ".jpg": 2,
+      ".js": 17,
+      ".css": 1
+    },
+    "sample_files": [
+      "index.html",
+      "serve.py",
+      "run_game.bat",
+      "build_bundle.py",
+      "cosmic_cityscape.jpg",
+      "js\\themes.js",
+      "js\\boardData.js",
+      "js\\cardsData.js",
+      "js\\audio.js",
+      "js\\board3d.js"
+    ],
+    "description": "Custom active development workspace"
+  },
+  "sandbox": {
+    "category": "other",
+    "total_files": 14,
+    "file_types": {
+      "": 1,
+      ".ps1": 2,
+      ".py": 1,
+      ".jpg": 1,
+      ".js": 2,
+      ".html": 1,
+      ".css": 1,
+      ".bat": 2,
+      ".md": 2,
+      ".json": 1
+    },
+    "sample_files": [
+      ".gitignore",
+      "Test-Sandbox.ps1",
+      "server.py",
+      "cosmic_cityscape.jpg",
+      "cosmic-background.js",
+      "index.html",
+      "sandbox.css",
+      "sandbox.js",
+      "Start-Sandbox.ps1",
+      "Start-Sandbox.bat"
+    ],
+    "description": "\ufeff# Antigravity Projects Sandbox\n\nA centralized, isolated testing and diagnostic environment for all application projects in `g:\\My Drive\\Antigravity\\Projects`.\n\nThe Sandbox allows developers and operators to preview, test, stage, and validate any application across web, Python, .NET, PowerShell, and"
+  },
+  "VR creation apps": {
+    "category": "game_dev",
+    "total_files": 0,
+    "file_types": {},
+    "sample_files": [],
+    "description": "Custom active development workspace"
+  },
+  "personal training": {
+    "category": "ai_and_learning",
+    "total_files": 7,
+    "file_types": {
+      ".md": 6,
+      ".ps1": 1
+    },
+    "sample_files": [
+      "README.md",
+      "Progress_Tracker.md",
+      "labs\\day-01\\README.md",
+      "labs\\day-01\\rhel9_lab.md",
+      "labs\\day-01\\script_task.ps1",
+      "labs\\day-01\\pbq_scenario.md",
+      "labs\\templates\\daily_template.md"
+    ],
+    "description": "# Daily Technical Skills Roadmap: Linux, RHEL 9, PowerShell & CompTIA PBQs\n\nWelcome to your structured hands-on training roadmap. This curriculum is engineered to build practical, enterprise-grade competency across **RHEL 9**, **PowerShell Scripting**, and **CompTIA Performance-Based Questions (PBQs"
+  },
+  "is this AI": {
+    "category": "ai_and_learning",
+    "total_files": 32,
+    "file_types": {
+      ".toml": 1,
+      ".py": 13,
+      ".bat": 3,
+      ".ps1": 3,
+      ".lock": 1,
+      ".md": 2,
+      ".json": 1,
+      ".svg": 1,
+      ".png": 2,
+      ".js": 3,
+      ".css": 1,
+      ".html": 1
+    },
+    "sample_files": [
+      "pyproject.toml",
+      "config.py",
+      "text_analyzer.py",
+      "image_analyzer.py",
+      "tts_voice.py",
+      "detector.py",
+      "screen_capture.py",
+      "ui.py",
+      "main.py",
+      "run.bat"
+    ],
+    "description": "# \ud83d\udd0d Is This AI? \u2014 Smart Screen & Content Detector for Gen X\n\nAn intuitive, high-contrast AI detection tool designed specifically for **Gen X** and anyone who wants straightforward, reliable answers to the question: *\"Did a human or a robot make this?\"*\n\n---\n\n## \u2728 Features\n\n- \ud83c\udfaf **Simple Yes / No Verd"
+  },
+  "game mods": {
+    "category": "game_dev",
+    "total_files": 58501,
+    "file_types": {
+      ".md": 6,
+      ".bat": 155,
+      ".txt": 1405,
+      ".bmp": 30033,
+      ".json": 12,
+      ".iso": 11,
+      ".7z": 2,
+      ".z64": 4,
+      ".lnk": 1,
+      ".exe": 25,
+      ".rar": 1,
+      ".pdf": 2,
+      ".cpf": 2,
+      ".py": 144,
+      ".png": 358,
+      ".yaml": 40,
+      "": 3051,
+      ".sh": 5,
+      ".inc": 1,
+      ".html": 1,
+      ".dll": 34,
+      ".config": 1,
+      ".ini": 17,
+      ".msstyles": 1,
+      ".bgf": 1007,
+      ".bin": 10209,
+      ".set": 1931,
+      ".lng": 136,
+      ".brf": 21,
+      ".clp": 71,
+      ".07": 6201,
+      ".wav": 308,
+      ".vbs": 2,
+      ".mp3": 548,
+      ".pad": 39,
+      ".jpg": 1039,
+      ".ico": 71,
+      ".act": 1,
+      ".gfx": 1,
+      ".pgproj": 1,
+      ".seg": 1,
+      ".stan": 1,
+      ".vtx": 1,
+      ".1172": 1,
+      ".sno": 15,
+      ".glb": 4,
+      ".mtl": 4,
+      ".obj": 8,
+      ".n64": 2,
+      ".cache": 1,
+      ".cfg": 1,
+      ".rdb": 1,
+      ".mpk": 1,
+      ".eep": 1,
+      ".ps1": 1,
+      ".adx": 171,
+      ".img": 1,
+      ".dol": 1,
+      ".patched": 1,
+      ".tpl": 365,
+      ".bnr": 1,
+      ".retail": 1,
+      ".bfn": 3,
+      ".rel": 33,
+      ".etbl": 1,
+      ".pool": 1,
+      ".proj": 1,
+      ".samp": 1,
+      ".sdir": 1,
+      ".slib": 1,
+      ".stbl": 1,
+      ".db": 3,
+      ".db2": 1,
+      ".stm": 146,
+      ".dat": 3,
+      ".ast": 3,
+      ".arc": 2,
+      ".zip": 2,
+      ".bco": 1,
+      ".bol": 1,
+      ".bmd": 11,
+      ".btk": 3,
+      ".bti": 6,
+      ".bck": 2,
+      ".bca": 3,
+      ".bla": 1,
+      ".bls": 1,
+      ".btp": 1,
+      ".prs": 2,
+      ".pyd": 19,
+      ".pyc": 352,
+      ".ctypes": 1,
+      ".otf": 1,
+      ".ttf": 2,
+      ".rst": 1,
+      ".typed": 2,
+      ".pyi": 8,
+      ".svg": 12,
+      ".pdb": 2,
+      ".tm": 5,
+      ".tcl": 128,
+      ".enc": 80,
+      ".msg": 145,
+      ".terms": 2,
+      ".gif": 13,
+      ".xbm": 6,
+      ".ppm": 1,
+      ".eps": 2,
+      ".xml": 2
+    },
+    "sample_files": [
+      "GEMINI.md",
+      "1_CLICK_STARTUP.bat",
+      "README.md",
+      "stdout.txt",
+      "scratch\\mario_dump_0.bmp",
+      "scratch\\mario_dump_19.bmp",
+      "scratch\\sonic_dump_0.bmp",
+      "scratch\\sonic_dump_19.bmp",
+      "scratch\\mariost_img_7.bmp",
+      "scratch\\mariost_img_8.bmp"
+    ],
+    "description": "# Game Modding & Emulator Workspace Directory Map\n\nWelcome to the organized **Game Modding & Emulator Hub**. This workspace is streamlined for mod development, asset injection, format conversions, and 1-click emulation.\n\n---\n\n## \ud83d\ude80 1-Click Startup Hubs\n\n- **[1_CLICK_STARTUP.bat](file:///g:/My%20Drive"
+  },
+  "New folder": {
+    "category": "other",
+    "total_files": 0,
+    "file_types": {},
+    "sample_files": [],
+    "description": "Custom active development workspace"
+  },
+  "windows event viewer": {
+    "category": "other",
+    "total_files": 105,
+    "file_types": {
+      ".ps1": 3,
+      ".bat": 3,
+      ".log": 99
+    },
+    "sample_files": [
+      "fix_event_viewer_issues.ps1",
+      "fix_event_viewer_issues.bat",
+      "Invoke-McAfeeScanner.ps1",
+      "Install-ScannerSchedules.ps1",
+      "Run-HourlyCheck.bat",
+      "Run-DailyScan.bat",
+      "logs\\McAfeeScan_Hourly_20261011_092535.log",
+      "logs\\McAfeeScan_Daily_20261011_092548.log",
+      "logs\\McAfeeScan_Hourly_20261011_100009.log",
+      "logs\\McAfeeScan_Hourly_20261011_103159.log"
+    ],
+    "description": "Custom active development workspace"
+  },
+  "youtube shorts edit for gaming": {
+    "category": "income_and_views",
+    "total_files": 0,
+    "file_types": {},
+    "sample_files": [],
+    "description": "Custom active development workspace"
+  },
+  "reverse engineer applications": {
+    "category": "security_and_systems",
+    "total_files": 0,
+    "file_types": {},
+    "sample_files": [],
+    "description": "Custom active development workspace"
+  },
+  "scheduled task": {
+    "category": "automation_and_tech",
+    "total_files": 0,
+    "file_types": {},
+    "sample_files": [],
+    "description": "Custom active development workspace"
+  },
+  "google drive organizer": {
+    "category": "automation_and_tech",
+    "total_files": 12,
+    "file_types": {
+      ".ps1": 5,
+      ".log": 1,
+      ".bat": 2,
+      ".md": 1,
+      "": 2,
+      ".html": 1
+    },
+    "sample_files": [
+      "organize_drive.ps1",
+      "organizer_activity.log",
+      "launch.bat",
+      "server.ps1",
+      "README.md",
+      ".gitignore",
+      "LICENSE",
+      "push_to_github.bat",
+      "public\\index.html",
+      "scripts\\organize_all.ps1"
+    ],
+    "description": "# \ud83d\ude80 DriveFlow | Cloud & PC AutoOrganizer\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)\n[![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D6.svg)](https://microsoft.com)\n[![Zero-Dependencies](https://img.shields.io/badge/Dependencies-Zero%"
+  },
+  "anime": {
+    "category": "other",
+    "total_files": 30,
+    "file_types": {
+      ".json": 1,
+      ".md": 1,
+      ".ps1": 1,
+      ".nfo": 27
+    },
+    "sample_files": [
+      "detective conan\\movies_catalog.json",
+      "detective conan\\README.md",
+      "detective conan\\setup_library.ps1",
+      "detective conan\\Case Closed Movie 01 - The Time Bombed Skyscraper (1997)\\movie.nfo",
+      "detective conan\\Case Closed Movie 02 - The Fourteenth Target (1998)\\movie.nfo",
+      "detective conan\\Case Closed Movie 03 - The Last Wizard of the Century (1999)\\movie.nfo",
+      "detective conan\\Case Closed Movie 04 - Captured in Her Eyes (2000)\\movie.nfo",
+      "detective conan\\Case Closed Movie 05 - Countdown to Heaven (2001)\\movie.nfo",
+      "detective conan\\Case Closed Movie 06 - The Phantom of Baker Street (2002)\\movie.nfo",
+      "detective conan\\Case Closed Movie 07 - Crossroad in the Ancient Capital (2003)\\movie.nfo"
+    ],
+    "description": "# Detective Conan (Case Closed) Movies Catalog\n\nThis directory contains metadata and reference information for all 27 theatrical films of the *Detective Conan* (*Case Closed*) franchise.\n\n## Files\n\n- [`movies_catalog.json`](file:///g:/My%20Drive/Antigravity/Projects/anime/detective%20conan/movies_ca"
+  },
+  "email organizer": {
+    "category": "automation_and_tech",
+    "total_files": 23,
+    "file_types": {
+      ".toml": 1,
+      "": 2,
+      ".md": 4,
+      ".lock": 1,
+      ".bat": 2,
+      ".ps1": 1,
+      ".json": 3,
+      ".py": 8,
+      ".yaml": 1
+    },
+    "sample_files": [
+      "pyproject.toml",
+      ".python-version",
+      "README.md",
+      "uv.lock",
+      ".gitignore",
+      "run_daily.bat",
+      "email-organizer.bat",
+      "setup_daily_task.ps1",
+      "mcp_config_snippet.json",
+      "credentials.json"
+    ],
+    "description": "# \ud83d\udcec Gmail Email Organizer & Daily Digest (Option 3: Hybrid)\n\nA hybrid email management engine combining **standalone Python automation (for background & daily scheduled batch jobs)** with native **Model Context Protocol (MCP)** tool exposure for AI agents.\n\n---\n\n## \ud83c\udf1f Key Features\n\n1. **Automated Dai"
+  },
+  "game studio": {
+    "category": "game_dev",
+    "total_files": 84,
+    "file_types": {
+      ".py": 1,
+      ".bat": 4,
+      ".ps1": 1,
+      ".md": 3,
+      ".html": 3,
+      ".txt": 2,
+      ".cpp": 1,
+      ".json": 4,
+      ".ts": 3,
+      ".tsx": 6,
+      ".local": 1,
+      "": 10,
+      ".cs": 5,
+      ".png": 12,
+      ".asset": 26,
+      ".settings": 1,
+      ".prefs": 1
+    },
+    "sample_files": [
+      "rom_tools.py",
+      "install_visual_studio_cpp.bat",
+      "GameStudio_Hub.ps1",
+      "GameStudio_Hub.bat",
+      "README.md",
+      "install_all_game_tools.bat",
+      "Paper_Mario_Expedition33_Pipe100.html",
+      "cpp_game_starter\\CMakeLists.txt",
+      "cpp_game_starter\\build.bat",
+      "cpp_game_starter\\src\\main.cpp"
+    ],
+    "description": "# Antigravity Game Studio & ROM Modding Suite\n\nWelcome to your unified **Game Development, Game Editing, and ROM Emulation Studio**.\n\n---\n\n## \ud83c\udfae 1. Quick Start Launcher\n- Double-click **[`GameStudio_Hub.bat`](file:///g:/My%20Drive/Antigravity/Projects/game%20studio/GameStudio_Hub.bat)** (or run **[`G"
+  },
+  "New folder (2)": {
+    "category": "other",
+    "total_files": 0,
+    "file_types": {},
+    "sample_files": [],
+    "description": "Custom active development workspace"
+  },
+  "improve gaming pc performance": {
+    "category": "other",
+    "total_files": 0,
+    "file_types": {},
+    "sample_files": [],
+    "description": "Custom active development workspace"
+  },
+  "inspect my pc for improvements": {
+    "category": "other",
+    "total_files": 11,
+    "file_types": {
+      ".ps1": 11
+    },
+    "sample_files": [
+      "inspect_pc.ps1",
+      "deep_inspect.ps1",
+      "disk_audit.ps1",
+      "appdata_audit.ps1",
+      "check_details.ps1",
+      "check_actual_disk_size.ps1",
+      "root_physical_audit.ps1",
+      "user_physical_audit.ps1",
+      "check_dxcache.ps1",
+      "onedrive_physical_audit.ps1"
+    ],
+    "description": "Custom active development workspace"
+  },
+  "automate my day": {
+    "category": "automation_and_tech",
+    "total_files": 292,
+    "file_types": {
+      ".bat": 3,
+      ".md": 3,
+      ".vbs": 2,
+      ".json": 5,
+      ".py": 18,
+      ".ps1": 4,
+      ".txt": 3,
+      ".png": 1,
+      ".mp4": 94,
+      ".mp3": 88,
+      ".jpg": 70,
+      ".log": 1
+    },
+    "sample_files": [
+      "automate.bat",
+      "README.md",
+      "daily_briefing.md",
+      "run_sentinel.bat",
+      "run_sentinel_silent.vbs",
+      "modules\\study\\questions_bank.json",
+      "modules\\study\\daily_quiz.py",
+      "modules\\backup\\backup_sentinel.ps1",
+      "modules\\gaming\\pc_optimizer.ps1",
+      "modules\\youtube\\convert_to_shorts.py"
+    ],
+    "description": "# \ud83d\ude80 Automate My Day - Master Automation Suite\n\nAn all-in-one automation center running on your Windows device that unifies your daily briefing, project backup, gaming performance maintenance, certification study routines, and YouTube Shorts content generation.\n\n---\n\n## \ud83d\udcc2 Architecture Overview\n\n```\na"
+  },
+  "portfolio": {
+    "category": "income_and_views",
+    "total_files": 13,
+    "file_types": {
+      ".html": 4,
+      ".css": 1,
+      ".js": 1,
+      ".md": 4,
+      ".pdf": 3
+    },
+    "sample_files": [
+      "index.html",
+      "styles.css",
+      "app.js",
+      "README.md",
+      "Chase_Hamilton_Master_Resume.md",
+      "Chase_Hamilton_Resume.html",
+      "job_search_execution_kit.md",
+      "Tailored_Resume_Linux_Storage.html",
+      "Tailored_Resume_Infra_Security.html",
+      "Application_Execution_A_and_B.md"
+    ],
+    "description": "# \ud83c\udf1f Chase R. Hamilton - Executive Technical Portfolio\n\nAn enterprise-grade, dark-mode technical portfolio and compensation valuation suite showcasing over a decade of infrastructure engineering leadership alongside modern AI autonomous software development.\n\n---\n\n## \ud83d\ude80 Live Local Launch\n\nTo view the "
+  },
+  "How to train your AI": {
+    "category": "ai_and_learning",
+    "total_files": 6,
+    "file_types": {
+      ".forge": 1,
+      ".deepseek_dev": 1,
+      ".py": 1,
+      ".ps1": 1,
+      ".jsonl": 1,
+      ".json": 1
+    },
+    "sample_files": [
+      "Modelfile.forge",
+      "Modelfile.deepseek_dev",
+      "extract_project_knowledge.py",
+      "train_and_evolve.ps1",
+      "datasets\\project_dataset.jsonl",
+      "datasets\\project_catalog.json"
+    ],
+    "description": "Custom active development workspace"
+  }
+}
