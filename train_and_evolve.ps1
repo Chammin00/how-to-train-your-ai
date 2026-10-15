@@ -38,6 +38,7 @@ if (Test-Path $pythonExe) {
 Write-Host "[*] Updating custom Ollama models..." -ForegroundColor Yellow
 ollama create project-forge -f Modelfile.forge
 ollama create dev-deepseek -f Modelfile.deepseek_dev
+ollama create gamecraft-ai -f Modelfile.gamecraft
 
 # 4. Prompt Ollama to generate fresh initiatives for Income, Views, Tech Expansion, and Game Development
 Write-Host "[*] Querying local Ollama model (project-forge) for today's high-impact objectives..." -ForegroundColor Yellow

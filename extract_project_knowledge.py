@@ -1,4 +1,4 @@
-"""
+r"""
 Project Knowledge Extractor & AI Training Dataset Builder
 Scans projects across G:\My Drive\Antigravity\Projects, analyzes structures,
 and produces fine-tuning JSONL pairs and system prompt context files.
@@ -29,6 +29,16 @@ def scan_projects():
         print(f"Directory {PROJECTS_DIR} not found.")
         return
 
+    # 1. Load domain-specific specialized dataset if present
+    specialized_file = OUTPUT_DIR / "rom_modding_and_game_dev.jsonl"
+    if specialized_file.exists():
+        with open(specialized_file, "r", encoding="utf-8") as sf:
+            for line in sf:
+                if line.strip():
+                    dataset_records.append(json.loads(line))
+        print(f"Loaded {len(dataset_records)} specialized ROM modding & game dev records.")
+
+    # 2. Scan all project directories
     for item in PROJECTS_DIR.iterdir():
         if not item.is_dir() or item.name.startswith("."):
             continue
@@ -39,17 +49,16 @@ def scan_projects():
         file_types = {}
 
         for root, dirs, filenames in os.walk(item):
-            # Skip hidden and cache folders
             dirs[:] = [d for d in dirs if not d.startswith(".") and d not in ("node_modules", "__pycache__", "venv")]
             for f in filenames:
                 ext = Path(f).suffix.lower()
                 file_types[ext] = file_types.get(ext, 0) + 1
                 rel_path = os.path.relpath(os.path.join(root, f), item)
                 files.append(rel_path)
-                if f.lower() in ("readme.md", "notes.txt", "description.txt") and not readme_content:
+                if f.lower() in ("readme.md", "notes.txt", "description.txt", "ai_game_engineering_guide.md") and not readme_content:
                     try:
                         with open(os.path.join(root, f), "r", encoding="utf-8", errors="ignore") as rf:
-                            readme_content = rf.read(1500)
+                            readme_content = rf.read(2000)
                     except Exception:
                         pass
 
@@ -75,6 +84,20 @@ def scan_projects():
             "output": f"Project '{proj_name}' belongs to the {assigned_cat} domain. Its primary mission is to expand capabilities in {assigned_cat.replace('_', ' ')}. Key integration targets include cross-linking with automated workflows, generating revenue/viewership channels, and scaling via AI agent automation."
         }
         dataset_records.append(record)
+
+        # Extra specialized records for game studio & game mods
+        if proj_name.lower() == "game studio":
+            dataset_records.append({
+                "instruction": "What is the technical architecture of the PaperMario_Expedition33_Unity project in game studio?",
+                "input": "Tools: Unity LTS, Visual Studio, C# scripting, Paper Mario turn-based timing mechanics, Expedition 33 reactive defense.",
+                "output": "PaperMario_Expedition33_Unity is a hybrid RPG prototype blending Paper Mario's action commands (timing-based button presses for extra damage) with Clair Obscur: Expedition 33's real-time dodge/parry mechanics. Built in Unity using C# in Visual Studio, it utilizes ScriptableObjects for enemy stats, Animator states for synchronized timing windows, and an action-dispatching turn queue."
+            })
+        elif proj_name.lower() == "game mods":
+            dataset_records.append({
+                "instruction": "How are game mods, ROM launchers, and asset injections structured in the 'game mods' workspace?",
+                "input": "Subsystems: Mario Kart Double Dash Sonic stages (mkdd_sonic_stages), Retro ROM launchers (NES, Pokemon, Genesis).",
+                "output": "The 'game mods' workspace contains multi-platform modding pipelines: 1) GameCube asset swaps (mkdd_sonic_stages) converting Sonic Adventure 2 stages and AST audio into MKDD .arc and .rel modules. 2) Emulation launchers for NES, Genesis, and Pokemon GBA/NDS/GameCube titles. 3) Binary patching and ROM combination pipelines for cross-system hacks."
+            })
 
     # Save JSONL dataset
     jsonl_path = OUTPUT_DIR / "project_dataset.jsonl"

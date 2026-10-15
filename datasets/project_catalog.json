@@ -833,18 +833,18 @@
   },
   "automate my day": {
     "category": "automation_and_tech",
-    "total_files": 305,
+    "total_files": 335,
     "file_types": {
       ".bat": 3,
       ".md": 3,
       ".vbs": 2,
       ".json": 5,
-      ".py": 19,
+      ".py": 18,
       ".ps1": 4,
       ".txt": 3,
-      ".png": 3,
-      ".mp4": 102,
-      ".jpg": 72,
+      ".png": 5,
+      ".mp4": 103,
+      ".jpg": 100,
       ".mp3": 88,
       ".log": 1
     },
@@ -888,14 +888,15 @@
   },
   "How to train your AI": {
     "category": "ai_and_learning",
-    "total_files": 7,
+    "total_files": 10,
     "file_types": {
       ".forge": 1,
       ".deepseek_dev": 1,
       ".py": 1,
       ".ps1": 1,
-      ".md": 1,
-      ".jsonl": 1,
+      ".md": 2,
+      ".gamecraft": 1,
+      ".jsonl": 2,
       ".json": 1
     },
     "sample_files": [
@@ -904,8 +905,11 @@
       "extract_project_knowledge.py",
       "train_and_evolve.ps1",
       "README.md",
+      "daily_initiatives_2026-10-15_02-01.md",
+      "Modelfile.gamecraft",
       "datasets\\project_dataset.jsonl",
-      "datasets\\project_catalog.json"
+      "datasets\\project_catalog.json",
+      "datasets\\rom_modding_and_game_dev.jsonl"
     ],
     "description": "# How to Train Your AI: Autonomous Multi-Project Ecosystem\n\nA centralized engine designed to continuously train, align, and leverage local LLMs (via Ollama & GitHub) to power development across all personal projects, with a strong focus on **Income Generation**, **Audience Growth (Views)**, **Techni"
   }
