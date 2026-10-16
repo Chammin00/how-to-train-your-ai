@@ -453,10 +453,48 @@
   },
   "VR creation apps": {
     "category": "game_dev",
-    "total_files": 0,
-    "file_types": {},
-    "sample_files": [],
-    "description": "Custom active development workspace"
+    "total_files": 377,
+    "file_types": {
+      ".html": 21,
+      ".ps1": 1,
+      ".js": 116,
+      ".zip": 2,
+      ".yml": 1,
+      "": 8,
+      ".json": 8,
+      ".md": 14,
+      ".cjs": 3,
+      ".jsonc": 1,
+      ".ttf": 1,
+      ".glb": 3,
+      ".ogg": 55,
+      ".png": 39,
+      ".gif": 4,
+      ".sh": 1,
+      ".txt": 1,
+      ".jpg": 19,
+      ".psd": 5,
+      ".obj": 28,
+      ".gltf": 2,
+      ".svg": 1,
+      ".blend": 4,
+      ".css": 1,
+      ".glsl": 36,
+      ".map": 2
+    },
+    "sample_files": [
+      "index.html",
+      "word-defender-xr.html",
+      "start-quest-server.ps1",
+      "environments.js",
+      "github-repos\\webxr-first-steps.zip",
+      "github-repos\\moonrider.zip",
+      "github-repos\\webxr-first-steps-main\\.aider.conf.yml",
+      "github-repos\\webxr-first-steps-main\\.gitignore",
+      "github-repos\\webxr-first-steps-main\\.mcp.json",
+      "github-repos\\webxr-first-steps-main\\.prettierignore"
+    ],
+    "description": "<p align=\"center\">\n    <img src=\"./tutorial/assets/webxr-first-steps.png\" style=\"max-width:376px\"/>\n</p>\n\nWelcome to **WebXR First Steps**! This **2-hour** tutorial is designed to help you take your first steps into developing immersive WebXR experiences using [Three.js](https://threejs.org/). Wheth"
   },
   "personal training": {
     "category": "ai_and_learning",
@@ -644,11 +682,11 @@
   },
   "windows event viewer": {
     "category": "other",
-    "total_files": 107,
+    "total_files": 132,
     "file_types": {
       ".ps1": 3,
       ".bat": 3,
-      ".log": 101
+      ".log": 126
     },
     "sample_files": [
       "fix_event_viewer_issues.ps1",
@@ -735,11 +773,11 @@
   },
   "email organizer": {
     "category": "automation_and_tech",
-    "total_files": 23,
+    "total_files": 24,
     "file_types": {
       ".toml": 1,
       "": 2,
-      ".md": 4,
+      ".md": 5,
       ".lock": 1,
       ".bat": 2,
       ".ps1": 1,
@@ -833,20 +871,21 @@
   },
   "automate my day": {
     "category": "automation_and_tech",
-    "total_files": 335,
+    "total_files": 476,
     "file_types": {
-      ".bat": 3,
-      ".md": 3,
+      ".bat": 5,
+      ".md": 4,
       ".vbs": 2,
-      ".json": 5,
-      ".py": 18,
+      ".json": 23,
+      ".py": 30,
       ".ps1": 4,
       ".txt": 3,
-      ".png": 5,
-      ".mp4": 103,
-      ".jpg": 100,
+      ".png": 7,
+      ".mp4": 236,
       ".mp3": 88,
-      ".log": 1
+      ".jpg": 70,
+      ".log": 1,
+      ".wav": 3
     },
     "sample_files": [
       "automate.bat",
@@ -854,11 +893,11 @@
       "daily_briefing.md",
       "run_sentinel.bat",
       "run_sentinel_silent.vbs",
+      "run_daily_anatomy_short.bat",
+      "run_daily_science_short.bat",
       "modules\\study\\questions_bank.json",
       "modules\\study\\daily_quiz.py",
-      "modules\\backup\\backup_sentinel.ps1",
-      "modules\\gaming\\pc_optimizer.ps1",
-      "modules\\youtube\\convert_to_shorts.py"
+      "modules\\backup\\backup_sentinel.ps1"
     ],
     "description": "# \ud83d\ude80 Automate My Day - Master Automation Suite\n\nAn all-in-one automation center running on your Windows device that unifies your daily briefing, project backup, gaming performance maintenance, certification study routines, and YouTube Shorts content generation.\n\n---\n\n## \ud83d\udcc2 Architecture Overview\n\n```\na"
   },
@@ -888,13 +927,13 @@
   },
   "How to train your AI": {
     "category": "ai_and_learning",
-    "total_files": 10,
+    "total_files": 11,
     "file_types": {
       ".forge": 1,
       ".deepseek_dev": 1,
       ".py": 1,
       ".ps1": 1,
-      ".md": 2,
+      ".md": 3,
       ".gamecraft": 1,
       ".jsonl": 2,
       ".json": 1
@@ -912,5 +951,27 @@
       "datasets\\rom_modding_and_game_dev.jsonl"
     ],
     "description": "# How to Train Your AI: Autonomous Multi-Project Ecosystem\n\nA centralized engine designed to continuously train, align, and leverage local LLMs (via Ollama & GitHub) to power development across all personal projects, with a strong focus on **Income Generation**, **Audience Growth (Views)**, **Techni"
+  },
+  "3d images": {
+    "category": "other",
+    "total_files": 14,
+    "file_types": {
+      ".html": 4,
+      ".css": 3,
+      ".js": 7
+    },
+    "sample_files": [
+      "index.html",
+      "styles.css",
+      "gallery.js",
+      "server.js",
+      "gallery.html",
+      "monopoly.css",
+      "chess.html",
+      "chess.css",
+      "monopoly.js",
+      "chess.js"
+    ],
+    "description": "Custom active development workspace"
   }
 }
